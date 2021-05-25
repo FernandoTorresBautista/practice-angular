@@ -3,8 +3,8 @@
     <div class="col-lg-8 offset-2">
       <div class="card">
         <div class="card-body text-center">
-          <span>Listado de productos</span>
-          <button class="btn btn-success float-end"> Nuevo </button>
+          <span class="titulo">Listado de productos</span>
+          <button class="btn btn-success float-end" routerLink="/crear-producto"> Nuevo </button>
 
           <table class="table table-striped mt-3">
             <thead>
@@ -13,7 +13,10 @@
                 <th scope="col">Categoria</th>
                 <th scope="col">Ubicación</th>
                 <th scope="col">Precio</th>
-                <th scope="col"></th>
+                <th scope="col">
+                  <i class="fas fa-edit text-primary"></i>
+                  <i class="fas fa-trash tet-danger"></i>
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -22,14 +25,20 @@
                 <td>Bebida</td>
                 <td>Mex city</td>
                 <td>2</td>
-                <td></td>
+                <td>
+                  <i class="fas fa-edit text-primary"></i>
+                  <i class="fas fa-trash tet-danger"></i>
+                </td>
               </tr>
               <tr>
                 <td scope="row">Malboro 20</td>
                 <td>Cigarros</td>
                 <td>Barcelona city</td>
                 <td>3</td>
-                <td></td>
+                <td>
+                  <i class="fas fa-edit text-primary"></i>
+                  <i class="fas fa-trash tet-danger"></i>
+                </td>
               </tr>
             </tbody>
           </table>
